@@ -57,29 +57,15 @@ This project uses the following tools for testing and API validation:
 
 ## **Running the Project Locally**
 
-### 1. Clone the repository
+### 1. Run .yaml file
 ```bash
-git clone https://github.com/MohanedAbdelaziz/gym-booking-app.git
-```
-### 2. Run the Backend
-```bash
-cd backend
-npm install
-npm run dev
+docker-compose up --build
 ```
 
-
-### 1. Run the Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
 
 ### Make sure to create a .env file inside the backend folder with the following content:
 ```bash
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb://localhost:27017/gymdb
 ```
 
 ## **Upcoming Features**
