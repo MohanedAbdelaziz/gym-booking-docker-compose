@@ -4,6 +4,8 @@ A simple gym booking system built with the MERN Stack (MongoDB, Express, React, 
 This project currently supports user authentication and a basic dashboard.
 
 ---
+![Image](https://github.com/user-attachments/assets/875a7cfb-abe6-4bdc-b2c6-c4df8d03d5c1)
+---
 
 ## **Current Features**
 
